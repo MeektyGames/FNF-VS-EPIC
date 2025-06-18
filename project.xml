@@ -2,7 +2,7 @@
 <project>
 	<!-- _________________________ Application Settings _________________________ -->
 	<app
-		title="Friday Night Funkin' - Codename Engine" main="funkin.backend.system.Main"
+		title="Friday Night Funkin' VS Epic" main="funkin.backend.system.Main"
 		file="CodenameEngine" packageName="com.yoshman29.codenameengine"
 		package="com.yoshman29.codenameengine"
 		version="0.1.0-legacy" company="Yoshman29" />

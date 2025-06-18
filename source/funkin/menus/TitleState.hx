@@ -249,11 +249,11 @@ class TitleState extends MusicBeatState
 	public var xml:Access;
 	public var titleLength:Int = 16;
 	public var titleLines:Map<Int, IntroText> = [
-		1 => new IntroText(['ninjamuffin99', 'phantomArcade', 'kawaisprite', 'evilsk8er']),
-		3 => new IntroText(['ninjamuffin99', 'phantomArcade', 'kawaisprite', 'evilsk8er', 'present']),
+		1 => new IntroText(['Mya', 'and', 'vaalyy']),
+		3 => new IntroText(['Mya', 'and', 'vaalyy', 'present']),
 		4 => new IntroText(),
-		5 => new IntroText(['In association', 'with']),
-		7 => new IntroText(['In association', 'with', 'newgrounds', {
+		5 => new IntroText(['not In association', 'with']),
+		7 => new IntroText(['In association', 'with', 'EPIC: the musical', {
 			name: "newgroundsLogo",
 			path: "menus/titlescreen/newgrounds_logo",
 			scale: 0.8
@@ -262,9 +262,9 @@ class TitleState extends MusicBeatState
 		9 => new IntroText(["{introText1}"]),
 		11 => new IntroText(["{introText1}", "{introText2}"]),
 		12 => new IntroText(),
-		13 => new IntroText(['Friday']),
-		14 => new IntroText(['Friday', 'Night']),
-		15 => new IntroText(['Friday', 'Night', "Funkin'"]),
+		13 => new IntroText(['Friday', 'Night', 'Funkin']),
+		14 => new IntroText(['VS']),
+		15 => new IntroText(['EPIC']),
 	];
 
 	public function loadXML() {
