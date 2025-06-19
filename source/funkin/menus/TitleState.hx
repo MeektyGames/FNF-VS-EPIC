@@ -228,18 +228,18 @@ class TitleState extends MusicBeatState
 		#else
 		switch (curBeat)
 		{
-			case 1:		createCoolText(['ninjamuffin99', 'phantomArcade', 'kawaisprite', 'evilsk8er']);
+			case 1:		createCoolText(['Mya', 'an', 'Vaalyy']);
 			case 3:		addMoreText('present');
 			case 4:		deleteCoolText();
-			case 5:		createCoolText(['In association', 'with']);
+			case 5:		createCoolText(['not in association', 'with']);
 			case 7:		addMoreText('newgrounds');	ngSpr.visible = true;
 			case 8:		deleteCoolText();			ngSpr.visible = false;
 			case 9:		createCoolText([curWacky[0]]);
 			case 11:	addMoreText(curWacky[1]);
 			case 12:	deleteCoolText();
-			case 13:	addMoreText('Friday');
-			case 14:	addMoreText('Night');
-			case 15:	addMoreText('Funkin');
+			case 13:	addMoreText('Friday Night Funkin');
+			case 14:	addMoreText('VS');
+			case 15:	addMoreText('EPIC');
 			case 16:	skipIntro();
 		}
 		#end

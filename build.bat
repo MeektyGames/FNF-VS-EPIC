@@ -1,3 +1,3 @@
 @echo on
 
-lime test windows
+haxelib run lime test windows
