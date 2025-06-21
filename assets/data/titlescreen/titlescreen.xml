@@ -27,15 +27,15 @@
 		<text beat="4" /> <!-- clears the screen !-->
 
 		<text beat="5">
-			<line text="not in association" />
+			<line text="in association" />
 			<line text="with" />
 		</text>
 
 		<text beat="7">
-			<line text="not in association" />
+			<line text="in association" />
 			<line text="with" />
-			<line text="Newgrounds" />
-			<sprite path="menus/titlescreen/newgrounds_logo" scale="0.8"/>
+			<line text="odysus" />
+			<sprite path="chracters/odysus" scale="0.8"/>
 		</text>
 
 		<text beat="8" /> <!-- clears the screen !-->

@@ -79,7 +79,7 @@ class TitleState extends MusicBeatState
 		add(blackScreen);
 
 		#if !TITLESCREEN_XML
-		ngSpr = new FlxSprite(0, FlxG.height * 0.52).loadAnimatedGraphic(Paths.image('newgrounds_logo'));
+		ngSpr = new FlxSprite(0, FlxG.height * 0.52).loadAnimatedGraphic(Paths.image('odysus'));
 		add(ngSpr);
 		ngSpr.visible = false;
 		ngSpr.setGraphicSize(Std.int(ngSpr.width * 0.8));
@@ -228,11 +228,11 @@ class TitleState extends MusicBeatState
 		#else
 		switch (curBeat)
 		{
-			case 1:		createCoolText(['Mya', 'an', 'Vaalyy']);
+			case 1:		createCoolText(['Mya', 'and', 'Vaalyy']);
 			case 3:		addMoreText('present');
 			case 4:		deleteCoolText();
-			case 5:		createCoolText(['not in association', 'with']);
-			case 7:		addMoreText('newgrounds');	ngSpr.visible = true;
+			case 5:		createCoolText(['in association', 'with']);
+			case 7:		addMoreText('odysus');	ngSpr.visible = true;
 			case 8:		deleteCoolText();			ngSpr.visible = false;
 			case 9:		createCoolText([curWacky[0]]);
 			case 11:	addMoreText(curWacky[1]);
@@ -252,10 +252,10 @@ class TitleState extends MusicBeatState
 		1 => new IntroText(['Mya', 'and', 'vaalyy']),
 		3 => new IntroText(['Mya', 'and', 'vaalyy', 'present']),
 		4 => new IntroText(),
-		5 => new IntroText(['not In association', 'with']),
-		7 => new IntroText(['In association', 'with', 'EPIC: the musical', {
-			name: "newgroundsLogo",
-			path: "menus/titlescreen/newgrounds_logo",
+		5 => new IntroText(['In association', 'with']),
+		7 => new IntroText(['In association', 'with', 'odysus', {
+			name: "odysus",
+			path: "chracters/odysus",
 			scale: 0.8
 		}]),
 		8 => new IntroText(),
