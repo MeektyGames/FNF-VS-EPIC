@@ -35,7 +35,7 @@
 			<line text="in association" />
 			<line text="with" />
 			<line text="odysus" />
-			<sprite path="chracters/odysus" scale="0.8"/>
+			<sprite path="menus/titlescreen/odysus" scale="0.5"/>
 		</text>
 
 		<text beat="8" /> <!-- clears the screen !-->
