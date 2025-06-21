@@ -1,0 +1,6 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.9" name="trojanHorse" folder="stages/trojanHorse/" startCamPosY="600" startCamPosX="1000">
+	<sprite name="back"               x="-600" y="-200"   sprite="trojan_horse_back"       scroll="0.9" />
+	<sprite name="front"       x="-600" y="600"    sprite="trojan_horse_floor"      scroll="0.9" />
+	<boyfriend />
+</stage>

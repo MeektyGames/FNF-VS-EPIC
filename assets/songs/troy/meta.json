@@ -1,17 +1,17 @@
 {
 	"opponentModeAllowed": false,
-	"icon": "face",
 	"difficulties": [
 		"hard"
 	],
+	"icon": "face",
 	"parsedColor": -7179779,
-	"customValues": {},
-	"color": "#9271FD",
-	"name": "troy",
 	"coopAllowed": false,
+	"name": "troy",
+	"color": "#9271FD",
+	"customValues": {},
 	"stepsPerBeat": 4,
 	"displayName": "troy",
-	"beatsPerMeasure": 4,
 	"needsVoices": true,
+	"beatsPerMeasure": 4,
 	"bpm": 130
 }
