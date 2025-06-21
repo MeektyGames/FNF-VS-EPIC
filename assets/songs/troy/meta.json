@@ -1,17 +1,17 @@
 {
-	"beatsPerMeasure": 4,
 	"opponentModeAllowed": false,
-	"coopAllowed": false,
-	"stepsPerBeat": 4,
-	"bpm": 130,
+	"icon": "face",
 	"difficulties": [
 		"hard"
 	],
-	"needsVoices": true,
 	"parsedColor": -7179779,
-	"displayName": "troy",
-	"icon": "face",
-	"name": "troy",
+	"customValues": {},
 	"color": "#9271FD",
-	"customValues": {}
+	"name": "troy",
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "troy",
+	"beatsPerMeasure": 4,
+	"needsVoices": true,
+	"bpm": 130
 }
